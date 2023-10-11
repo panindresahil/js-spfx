@@ -12,3 +12,20 @@ true <=> 1 || false <=> 0
 */
 
 console.log(typeof String(true));
+
+// ----------------------------- Operations ------------------------------
+
+
+let value = 3
+let negValue = -value
+
+// console.log(negValue);
+
+let str1 = "Hello"
+let str2 = " Sahil"
+console.log(str1 + str2);
+
+console.log("1" + 2 + 2);
+console.log(3 + 4 + '2');
+
+
