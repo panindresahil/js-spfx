@@ -9,3 +9,9 @@
 /* 
 Array, Objects, Functions
 */
+
+// ---------------------- Memory ------------------------
+
+// 2 Types : Stack -> Primitive Types, Heap -> Non-Primitive Types
+
+let myName = 'Sahil'
