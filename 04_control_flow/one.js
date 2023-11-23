@@ -10,12 +10,12 @@
 
 // <, >, <=, >=, ==, !=, ===, !==, &&, ||
 
-// const score = 200
+const score = 200
 
-// if (score > 100) {
-//     let power = 'fly'
-//     console.log(`User Power: ${power}`);
-// }
+if (score > 100) {
+    let power = 'fly'
+    console.log(`User Power: ${power}`);
+}
 // console.log(`User Power: ${power}`);
 
 const balance = 550
