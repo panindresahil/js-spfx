@@ -3,7 +3,7 @@ const user = {
     price: 999,
     welcomeMessage: function() {
         console.log(`${this.userName}, Welcome to the website.`);
-        // console.log(this);
+        console.log(this);
     }
 
 }
@@ -19,17 +19,17 @@ const user = {
 
 function chai() {
     let userName = 'Sahil'
-    // console.log(this.userName);
+    console.log(this.userName);
 }
 
-// chai()
+chai()
 
 const chai2 = () => {
     let userName = 'Sahil'
     console.log(this);
 }
 
-// chai2()
+chai2()
 
 const addTwo = (num1, num2) => {
     return num1 + num2
@@ -43,5 +43,5 @@ const addOne = (num1) => num1 + 1 // Implicit Function/
 
 const obj = () => ({userName: "Sahil"})
 
-console.log(obj());
+// console.log(obj());
 

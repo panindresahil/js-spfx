@@ -8,12 +8,12 @@ if (true) {
     let a = 10
     const b = 20
     var c = 30
-    // console.log('inner', a);
+    console.log('inner', a);
 }
 
-// console.log(a);
-// // console.log(b);
-// console.log(c);
+console.log(a);
+// console.log(b);
+console.log(c);
 
 
 function one() {
@@ -21,9 +21,9 @@ function one() {
 
     function two() {
         const website = 'youtube'
-        // console.log(userName);
+        console.log(userName);
     }
-    // console.log(website);
+    console.log(website);
 
     two()
 }

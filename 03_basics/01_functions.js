@@ -33,7 +33,7 @@ function calculateCartPrice(...num1) {
     return num1
 }
 
-// console.log(calculateCartPrice(200, 300, 400, 500))
+console.log(calculateCartPrice(200, 300, 400, 500))
 
 const user = {
     userName: 'Hitesh',
