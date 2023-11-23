@@ -16,7 +16,7 @@ const user = {
 
 // console.log(user['age'])
 // console.log(user.f_name);
-// console.log(user[sym]);
+console.log(user[sym]);
 
 user.age = 25
 // console.log(user);
@@ -30,4 +30,4 @@ user.greeting = function () {
 
 // console.log(user.greeting); // Returns the refrence of a Function.
 
-console.log(user.greeting());
+user.greeting()

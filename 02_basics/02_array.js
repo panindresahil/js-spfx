@@ -16,15 +16,15 @@ const allNewHeroes = [...marvelHereos, ...dcHeroes] // Spread Operator
 
 const anotherArray = [1, 2, 3, [4, 5], 6, [7, [8, 9], 10]]
 
-const realAnotherArray = anotherArray.flat(Infinity)
+const realAnotherArray = anotherArray.flat(1)
 
-// console.log(realAnotherArray);
+console.log(realAnotherArray);
 
 console.log(Array.isArray('Sahil'));
 
 console.log(Array.from('Sahil'));
 
-console.log(Array.from({name: 'Sahil'}));
+console.log(Array.from({name: 'Sahil', age: 24}));
 
 let score = 100
 
