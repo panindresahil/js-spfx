@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Event's</title>
+    <title>HTML Events </title>
 </head>
-<body>
-    
+<body style="background-color: #414141; color: aliceblue;">
+    <h2>Amazing image</h2>
+    <div >
+        <ul id="images">
+            <li id="photoshop">Photoshop</li>
+            <li id="japan">Japan</li>
+            <li id="river">River</li>
+            <li id="owl">Owl</li>
+            <li id="prayer">Prayer</li>
+            <li><a style="color: aliceblue;" href="https://google.com" id="google">Google5</a></li>
+        </ul>
+   </div>
 </body>
+<script>
+    // document.getElementById('owl').onclick = () => {
+    //     alert('Owl');
+    // }
+
+    document.querySelector('#japan').addEventListener('click', (e) => {
+        console.log(e);
+    })
+
+
+</script>
 </html>
